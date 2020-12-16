@@ -10,8 +10,8 @@
 <body>
 <div class="container-fixed">
     <div class="table">
-                <a href="{{'/'}}">Trang Chu</a><br>
-        <a href="{{'/xoa'}}">xoa</a>
+{{--                <a href="{{'/'}}">Trang Chu</a><br>--}}
+{{--        <a href="{{'/xoa'}}">xoa</a>--}}
     </div>
 </div>
 <h3> Bạn có chắc chắn muốn xóa khách hàng này không ?? </h3>

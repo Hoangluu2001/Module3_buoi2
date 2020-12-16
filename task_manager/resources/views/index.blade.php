@@ -11,65 +11,35 @@
 <h1>Danh sách khách hàng vippro</h1>
 <div class="container-fixed">
      <div class="table">
-         <a href="{{'/'}}">Trang Chu</a> <br>
-         <a href="{{'/add'}}">Them Khach Hang</a>
-
+{{--         <a href="{{'/'}}">Trang Chu</a> <br>--}}
+{{--         <a href="{{'/add'}}">Them Khach Hang</a>--}}
+<a class="btn btn-success" href="{{route('customer.create')}}">Them moi</a>
 <table class="table">
     <thead>
     <tr>
         <th>STT</th>
         <th>Họ và tên</th>
-        <th>Số điện thoại</th>
+        <th>Tuoi</th>
+        <th>Phone</th>
         <th>Email</th>
-        <th>Thao tác</th>
+        <th>Address</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>1</td>
-        <td>Hoàng Thế Lưu</td>
-        <td>0123456789</td>
-        <td>hoangtheluu@mail.com</td>
-        <td>
-            <a href="{{'/xem'}}">Xem</a> | <a href="{{'/sua'}}">Sửa</a> | <a href="{{'/xoa'}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Tống Văn Dũng </td>
-        <td>0123456789</td>
-        <td>tongvandung@mail.com</td>
-        <td>
-            <a href="{{'/xem'}}">Xem</a> | <a href="{{'/sua'}}">Sửa</a> | <a href="{{'/xoa'}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Nguyễn Đình Tuấn  ( con gà nam định , gà đông tảo )</td>
-        <td>0123456789</td>
-        <td>nguyendinhtuan@mail.com</td>
-        <td>
-            <a href="{{'/xem'}}">Xem</a> | <a href="{{'/sua'}}">Sửa</a> | <a href="{{'/xoa'}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Nguyễn Duy Trường</td>
-        <td>0123456789</td>
-        <td>ngguyenduytruong@mail.com</td>
-        <td>
-            <a href="{{'/xem'}}">Xem</a> | <a href="{{'/sua'}}">Sửa</a> | <a href="{{'/xoa'}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Lê Đức Tâm </td>
-        <td>0123456789</td>
-        <td>leductam@mail.com</td>
-        <td>
-            <a href="{{'/xem'}}">Xem</a> | <a href="{{'/sua'}}">Sửa</a> | <a href="{{'/xoa'}}">Xóa</a>
-        </td>
-    </tr>
+    @forelse($customers as $key=>$customer)
+<tr>
+    <td>{{++$key}}</td>
+    <td>{{$customer->name}}</td>
+    <td>{{$customer->age}}</td>
+    <td>{{$customer->phone}}</td>
+    <td>{{$customer->email}}</td>
+    <td>{{$customer->address}}</td>
+    <td>
+        <a href="{{route('$customer.edit',$customer->id)}}">Sua</a>
+        <a href="{{route('$customer.destroy',$customer->id)}}">xoa</a>
+    </td>
+
+</tr>
     </tbody>
 </table>
      </div>

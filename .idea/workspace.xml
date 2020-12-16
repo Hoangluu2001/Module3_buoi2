@@ -150,14 +150,7 @@
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/ThuVien/resources/views/dictionary.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/bai2/resources/views/product.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/bai2/resources/views/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routeCoBan/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routeCoBan/resources/views/user.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/resources/views/xem.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timezone/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3_Buoi3/email-validation/resources/views/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo_mvc/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo_mvc/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo_mvc/src/controller/Billcontroller.php" afterDir="false" />
@@ -168,18 +161,25 @@
       <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../server_time/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../server_time/HTTP2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/timezone/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -321,6 +321,9 @@
       <updated>1607995313128</updated>
       <workItem from="1607995314574" duration="7561000" />
       <workItem from="1608014159603" duration="5436000" />
+      <workItem from="1608083885731" duration="822000" />
+      <workItem from="1608087381576" duration="4433000" />
+      <workItem from="1608100589337" duration="531000" />
     </task>
     <servers />
   </component>
