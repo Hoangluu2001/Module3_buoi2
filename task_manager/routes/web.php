@@ -67,10 +67,10 @@ use Illuminate\Support\Facades\Route;
 //
 //Route::resource('customers', 'CustomerController');
 
-
-Route::get('/index',function (){
-    return view('index');
-});
+//
+//Route::get('/index',function (){
+//    return view('index');
+//});
 
 Route::prefix('customer')->group(function (){
     Route::get('/',[CustomerController::class,'index'])->name('customer.index');

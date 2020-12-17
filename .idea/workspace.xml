@@ -161,12 +161,13 @@
       <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../server_time/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../server_time/HTTP2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/database/seeders/CustomerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/seeders/CustomerSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -323,7 +324,10 @@
       <workItem from="1608014159603" duration="5436000" />
       <workItem from="1608083885731" duration="822000" />
       <workItem from="1608087381576" duration="4433000" />
-      <workItem from="1608100589337" duration="531000" />
+      <workItem from="1608100589337" duration="5535000" />
+      <workItem from="1608126585279" duration="91000" />
+      <workItem from="1608127158047" duration="1000" />
+      <workItem from="1608169340131" duration="7322000" />
     </task>
     <servers />
   </component>
@@ -341,5 +345,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/task_manager/resources/views/index.blade.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

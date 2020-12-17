@@ -13,16 +13,17 @@
      <div class="table">
 {{--         <a href="{{'/'}}">Trang Chu</a> <br>--}}
 {{--         <a href="{{'/add'}}">Them Khach Hang</a>--}}
-<a class="btn btn-success" href="{{route('customer.create')}}">Them moi</a>
+<a class="btn btn-success" href="{{route('customer.create')}}">Thêm Mới</a>
 <table class="table">
     <thead>
     <tr>
         <th>STT</th>
         <th>Họ và tên</th>
-        <th>Tuoi</th>
+        <th>Age</th>
         <th>Phone</th>
         <th>Email</th>
         <th>Address</th>
+        <th>Thao tác</th>
     </tr>
     </thead>
     <tbody>
@@ -34,12 +35,27 @@
     <td>{{$customer->phone}}</td>
     <td>{{$customer->email}}</td>
     <td>{{$customer->address}}</td>
+
     <td>
-        <a href="{{route('$customer.edit',$customer->id)}}">Sua</a>
-        <a href="{{route('$customer.destroy',$customer->id)}}">xoa</a>
+        <a href="{{route('customer.edit',$customer->id)}}"> Edit</a>
+        <a href="{{route('customer.destroy',$customer->id)}}">Delete</a>
     </td>
 
+{{--    <td>--}}
+{{--        <a href="{{route('customer.edit',$customer->id)}}" class=" btn btn-primary">Edit</a>--}}
+{{--        <a href="{{route('customer.destroy',$customer->id}} "--}}
+{{--           onclick="return confirm('Bạn Có Muốn Xóa Khách Hàng Này Không?')" class="btn btn-danger">Delete</a>--}}
+
+{{--    </td>--}}
+
 </tr>
+
+    @empty
+        <tr>
+            <td> No data </td>
+        </tr>
+
+    @endforelse
     </tbody>
 </table>
      </div>

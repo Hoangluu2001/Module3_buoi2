@@ -23,7 +23,7 @@ class CustomerFactory extends Factory
     {
         return [
          'name'=> $this->faker->name,
-         'age'=> $this->faker->numberBetween(10,100),
+         'age'=> $this->faker->numberBetween(10,20),
          'phone'=> $this->faker->phoneNumber,
          'email'=> $this->faker->email,
          'address'=> $this->faker->address,
