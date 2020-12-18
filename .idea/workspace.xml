@@ -162,13 +162,14 @@
       <change afterPath="$PROJECT_DIR$/../server_time/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../server_time/HTTP2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/app/Models/Customer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/database/seeders/CustomerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/seeders/CustomerSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/database/migrations/2020_12_16_032723_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/migrations/2020_12_16_032723_create_customers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/sua.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/xoa.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +328,10 @@
       <workItem from="1608100589337" duration="5535000" />
       <workItem from="1608126585279" duration="91000" />
       <workItem from="1608127158047" duration="1000" />
-      <workItem from="1608169340131" duration="7322000" />
+      <workItem from="1608169340131" duration="7862000" />
+      <workItem from="1608187083044" duration="7788000" />
+      <workItem from="1608259588837" duration="6201000" />
+      <workItem from="1608275040148" duration="2559000" />
     </task>
     <servers />
   </component>
@@ -351,7 +355,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/task_manager/resources/views/index.blade.php</url>
-          <line>34</line>
+          <line>92</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

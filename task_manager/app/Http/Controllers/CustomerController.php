@@ -39,8 +39,26 @@ class CustomerController extends Controller
         $customer = new Customer();
 //        $customer->name = $request->name;
         $customer->fill($request->all());
-        $customer->save();
-        return redirect()->route('customer.index');
+//        $customer->save();
+//        return redirect()->route('customer.index');
+
+
+
+       $file = $request->inputFile;
+      if (!$request->hasFile('inputFile')){
+           $customer ->img = $file;
+       }else{
+           $fileName = $request->inputFileName;
+           $fileExtension = $file->getClientOriginalExtension();
+            $newFileName = "$fileName.$fileExtension";
+           $customer ->img = $newFileName;
+          $request->file('inputFile')->storeAs('public/images', $newFileName);
+       }
+       $customer ->save();
+//       $message = "Tạo customer $request->inputTitle thành công!";
+//       Session::flash('create-success', $message);
+       return redirect()->route('customer.index');
+
     }
 
     /**
@@ -77,7 +95,24 @@ class CustomerController extends Controller
     {
         $customer = Customer::findOrFail($id);
         $customer->fill($request->all());
-        $customer->save();
+//        $customer->save();
+//        return redirect()->route('customer.index');
+
+
+
+        $file = $request->inputFile;
+        if (!$request->hasFile('inputFile')){
+            $customer ->img = $file;
+        }else{
+            $fileName = $request->inputFileName;
+            $fileExtension = $file->getClientOriginalExtension();
+            $newFileName = "$fileName.$fileExtension";
+            $customer ->img = $newFileName;
+            $request->file('inputFile')->storeAs('public/images', $newFileName);
+        }
+        $customer ->save();
+//       $message = "Tạo customer $request->inputTitle thành công!";
+//       Session::flash('create-success', $message);
         return redirect()->route('customer.index');
     }
 

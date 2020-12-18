@@ -27,6 +27,7 @@ class CustomerFactory extends Factory
          'phone'=> $this->faker->phoneNumber,
          'email'=> $this->faker->email,
          'address'=> $this->faker->address,
+
         ];
     }
 }
