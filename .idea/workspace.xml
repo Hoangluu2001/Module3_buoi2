@@ -150,6 +150,19 @@
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/ThuVien/resources/views/dictionary.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/bai2/resources/views/product.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Module3-Bai1/bai2/resources/views/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/Exo2-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/PT_Sans-Web-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/images/left1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/public/backend/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Module3_Buoi3/email-validation/resources/views/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo_mvc/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo_mvc/index.php" afterDir="false" />
@@ -163,10 +176,6 @@
       <change afterPath="$PROJECT_DIR$/../server_time/HTTP2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/app/Http/Controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/app/Models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/factories/CustomerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/database/migrations/2020_12_16_032723_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/migrations/2020_12_16_032723_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_manager/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
@@ -303,7 +312,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task_manager/public/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -312,6 +321,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task_manager/public/backend" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -331,7 +345,8 @@
       <workItem from="1608169340131" duration="7862000" />
       <workItem from="1608187083044" duration="7788000" />
       <workItem from="1608259588837" duration="6201000" />
-      <workItem from="1608275040148" duration="2559000" />
+      <workItem from="1608275040148" duration="4868000" />
+      <workItem from="1608346488187" duration="5709000" />
     </task>
     <servers />
   </component>

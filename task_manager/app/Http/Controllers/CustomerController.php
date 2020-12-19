@@ -15,6 +15,7 @@ class CustomerController extends Controller
     public function index()
     {
         $customers = Customer::all();
+//        dd($customers);
         return view('index',compact('customers'));
     }
 
@@ -43,21 +44,11 @@ class CustomerController extends Controller
 //        return redirect()->route('customer.index');
 
 
-
-       $file = $request->inputFile;
-      if (!$request->hasFile('inputFile')){
-           $customer ->img = $file;
-       }else{
-           $fileName = $request->inputFileName;
-           $fileExtension = $file->getClientOriginalExtension();
-            $newFileName = "$fileName.$fileExtension";
-           $customer ->img = $newFileName;
-          $request->file('inputFile')->storeAs('public/images', $newFileName);
-       }
-       $customer ->save();
-//       $message = "Tạo customer $request->inputTitle thành công!";
-//       Session::flash('create-success', $message);
-       return redirect()->route('customer.index');
+        $imageName = 'uploads/' . time() . '.' . $request->img->extension();
+        $request->img->move(public_path('uploads'), $imageName);
+        $customer->img = $imageName;
+        $customer ->save();
+        return redirect()->route('customer.index');
 
     }
 
@@ -72,44 +63,22 @@ class CustomerController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Customer  $customer
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
         $customer = Customer::findOrFail($id);
         return view('edit',compact('customer'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Customer  $customer
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, $id)
     {
         $customer = Customer::findOrFail($id);
         $customer->fill($request->all());
-//        $customer->save();
-//        return redirect()->route('customer.index');
 
-
-
-        $file = $request->inputFile;
-        if (!$request->hasFile('inputFile')){
-            $customer ->img = $file;
-        }else{
-            $fileName = $request->inputFileName;
-            $fileExtension = $file->getClientOriginalExtension();
-            $newFileName = "$fileName.$fileExtension";
-            $customer ->img = $newFileName;
-            $request->file('inputFile')->storeAs('public/images', $newFileName);
-        }
+        $imageName = 'uploads/' . time() . '.' . $request->img->extension();
+        $request->img->move(public_path('uploads'), $imageName);
+        $customer->img = $imageName;
         $customer ->save();
 //       $message = "Tạo customer $request->inputTitle thành công!";
 //       Session::flash('create-success', $message);

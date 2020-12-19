@@ -57,10 +57,10 @@
 
             </ul>
 
-    {{--            <form method="post" enctype="multipart/form-data" action="?page=search" class="form-inline my-2 my-lg-0">--}}
-    {{--                <input class="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">--}}
-    {{--                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>--}}
-    {{--            </form>--}}
+                <form method="post" enctype="multipart/form-data" action="?page=search" class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
         </div>
     </nav>
 </head>
@@ -94,7 +94,7 @@
     <td>{{$customer->email}}</td>
     <td>{{$customer->address}}</td>
     <td>
-        <img src="{{asset('storage/images').$customer->img}}" alt="" style="width: 100px">
+        <img src='{{asset("$customer->img")}}' alt="" style="width: 100px">
     </td>
 
     <td>
