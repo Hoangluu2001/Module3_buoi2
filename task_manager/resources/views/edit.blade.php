@@ -208,7 +208,7 @@
     <div class="clear"></div>
 </div>
 <footer>
-    <p>&copy; transitive register Form. All Rights Reserved | Design by <a href="http://w3layouts.com/"> Hoàng Lưu</a></p>
+    <p>&copy;2021 transitive register Form. All Rights Reserved | Design by <a href="http://w3layouts.com/"> Hoàng Lưu</a></p>
 </footer>
 
 </body>
