@@ -164,6 +164,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/xem.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +299,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task_manager/public/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module3_Buoi6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -332,6 +334,9 @@
       <workItem from="1608259588837" duration="6201000" />
       <workItem from="1608275040148" duration="4868000" />
       <workItem from="1608346488187" duration="7094000" />
+      <workItem from="1608467677892" duration="2055000" />
+      <workItem from="1608512425938" duration="7832000" />
+      <workItem from="1608532905241" duration="1938000" />
     </task>
     <servers />
   </component>

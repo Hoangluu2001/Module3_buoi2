@@ -208,8 +208,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <div class="w3l-submit">
                 <input type="submit" value="Thêm Khách Hàng">
+                <button  style="position: absolute;left: 77%" onclick="window.history.go(-1); return false;">Hủy</button>
+
             </div>
-            <button  class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>
         </form>
 {{--        <p class="wthree-p">  or connect with  </p>--}}
 {{--        <div class="wthree-social">--}}

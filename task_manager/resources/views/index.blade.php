@@ -98,8 +98,9 @@
     </td>
 
     <td>
-        <a href="{{route('customer.edit',$customer->id)}}"> Edit</a>
-        <a href="{{route('customer.destroy',$customer->id)}}">Delete</a>
+        <a class="btn btn-warning" href="{{route('customer.edit',$customer->id)}}"> Edit</a>
+        <a class="btn btn-danger" href="{{route('customer.destroy',$customer->id)}}"
+            onclick="return confirm('Bạn Có Muốn Xóa Khách Hàng Này Không?')" class="btn btn-danger">Delete</a>
     </td>
 
 {{--    <td>--}}
